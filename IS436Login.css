@@ -1,0 +1,50 @@
+body{
+background-color: #909090;
+text-align: center;
+
+}
+
+.header{
+	background-color: #F5F5F5;
+	width:350px;
+	margin-left:auto;
+	margin-right:auto;
+	border: groove #CCCCCC 8px;
+	
+}
+.Sign-In{
+	background-color: #D3D3D3;
+	width: 450px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:10px;
+	border: groove #CCCCCC 8px;
+	font-size: 20px;
+}
+
+.button{
+	padding: 15px 32px; 
+	background-color: #ADD8E6; 
+	font-size: 20px; 
+	border-radius: 16px;
+}
+
+.top{
+	width:100%;
+	height: 100px;
+	background-color:#ADD8E6;
+	border: groove #CCCCCC 8px;
+
+}
+.top a {
+	float: left; 
+	color: black;
+	padding : 14px;
+	font-size: 40px;
+}
+.top a:hover{
+	background-color: white;
+}
+.top a.current{
+	background-color: #37BCE8;
+}
