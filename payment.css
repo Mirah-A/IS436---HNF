@@ -1,0 +1,15 @@
+/* Amirah Elgendy - Payment/Subscription CSS */ 
+
+.row {
+
+
+
+}
+
+
+.column {
+    float: left;
+    text-align: center;
+    width: 33.33%;
+    padding: 10px;
+}
