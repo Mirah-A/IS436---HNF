@@ -63,8 +63,8 @@ if ($password !== $REpassword){
 
 <?php
 }else{
-	$constructed_query = "INSERT INTO create_acc (first_name, last_name, email, username, password, re_password)
-	VALUES ('$fname', '$lname', '$email', '$username', '$password', '$Repassword')";
+	$constructed_query = "INSERT INTO create_acc (first_name, last_name, email, username, password, re_password, age, height, weight)
+	VALUES ('$fname', '$lname', '$email', '$username', '$password', '$Repassword', $age, $height, $weight)";
 	
 	$result = mysqli_query($db, $constructed_query);
 		if(! $result){
