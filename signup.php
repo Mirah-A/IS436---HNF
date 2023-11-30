@@ -17,7 +17,8 @@ $db = mysqli_connect("studentdb-maria.gl.umbc.edu","astine2","astine2","astine2"
 
 if(mysqli_connect_errno()) exit("Error - Could not connect to mySQL");
 
-$create_table = "CREATE TABLE IF NOT EXISTS create_acc ( user_id INT (7) UNSIGNED AUTO_INCREMENT PRIMARY KEY NOT NULL, first_name CHAR(30), last_name CHAR (30), email VARCHAR(50), username VARCHAR(30), password VARCHAR(50), re_password VARCHAR(50)";
+$create_table = "CREATE TABLE IF NOT EXISTS create_acc ( user_id INT (7) UNSIGNED AUTO_INCREMENT PRIMARY KEY NOT NULL, first_name CHAR(30), last_name CHAR (30), email VARCHAR(50), username VARCHAR(30), password VARCHAR(50), 
+re_password VARCHAR(50), age int, height varchar(10), weight int";
 
 $create = mysqli_query($db, $create_table);
 
@@ -27,7 +28,11 @@ if(
 (isset($_POST['email'])&& !empty($_POST['email'])) &&
 (isset($_POST['username'])&& !empty($_POST['username'])) &&
 (isset($_POST['Password'])&& !empty($_POST['Password'])) &&
-(isset($_POST['Repassword'])&& !empty($_POST['Repassword']))
+(isset($_POST['Repassword'])&& !empty($_POST['Repassword'])) &&
+(isset($_POST['age'])&& !empty($_POST['age'])) &&
+(isset($_POST['height'])&& !empty($_POST['height'])) &&
+(isset($_POST['weight'])&& !empty($_POST['weight'])) 
+
 ){
 	
 	$fname = htmlspecialchars($_POST['f_name']);
@@ -35,7 +40,10 @@ if(
 	$email = htmlspecialchars($_POST['email']);
 	$username = htmlspecialchars($_POST['username']);
 	$password = htmlspecialchars($_POST['Password']);
-	$Repassword = htmlspecialchars($_POST['REpassword']);
+	$Repassword = htmlspecialchars($_POST['Repassword']);
+	$age = htmlspecialchars($_POST['age']);
+	$height = htmlspecialchars($_POST['height']);
+	$weight = htmlspecialchars($_POST['weight']);
 
 	$fname = mysqli_real_escape_string($db, $fname);
 	$lname = mysqli_real_escape_string($db, $lname);
@@ -43,6 +51,9 @@ if(
 	$username = mysqli_real_escape_string($db, $username);
 	$password = mysqli_real_escape_string ($db, $password);
 	$Repassword = mysqli_real_escape_string($db, $Repassword);
+	$age = mysqli_real_escape_string($db, $age);
+	$height = mysqli_real_escape_string ($db, $height);
+	$weight = mysqli_real_escape_string($db, $weight);
 
 if ($password !== $REpassword){
 
