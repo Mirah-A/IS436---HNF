@@ -13,6 +13,12 @@ When you first access the page you will see a user dashboard that is empty. You 
 We have five intended use case: Login/Create an Account, Payment System, Insert Workout and Nutritional Information, Personal Planner and Tracking Activities
 
 ### Login/Create Account
-
-
+The create an account page is used to store values in the mysql table. The login page references what the user inserts into the page with what information is saved in the table. If it matches the user can proceed. The login page also starts a session. 
 ### Payment System
+This case focuses on the user selecting a subscritption plan. There are multiple tiers of subscriptions.
+### Insert Workout and Nutritional Information
+This case allows you to insert workout and nutritional information. 
+### Personal Planner
+The personal planner use case allows you to submit different information such as your goals, adding item to your calendar, adding workout plans, etc. 
+## Tracking Activites
+This case allows you to view all of your activities on the dashboard
