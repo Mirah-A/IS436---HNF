@@ -20,5 +20,5 @@ This case focuses on the user selecting a subscritption plan. There are multiple
 This case allows you to insert workout and nutritional information. 
 ### Personal Planner
 The personal planner use case allows you to submit different information such as your goals, adding item to your calendar, adding workout plans, etc. 
-## Tracking Activites
+### Tracking Activites
 This case allows you to view all of your activities on the dashboard
