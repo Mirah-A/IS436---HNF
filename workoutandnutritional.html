@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>HNF+ Workout and Nutrition Tracker</title>
-    <link rel="stylesheet" type="text/css" href="workoutandnutritional.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HNF+ Dashboard</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -16,18 +18,51 @@
         </nav>
     </header>
     
-    <section id="workouts">
+<div class="container">
+    <div class="workout-plan">
         <h2>Today's Workout Plan</h2>
-        <!-- Dynamic content for workout routines -->
-    </section>
-
-    <section id="nutrition">
+        <div class="cardio">
+            <h3>Cardio Warm-Up</h3>
+            <p>Duration: 10 minutes</p>
+            <button>Mark as Complete</button>
+        </div>
+        <div class="strength">
+            <h3>Strength Training</h3>
+            <p>Exercises: Squats, Bench Press, Deadlifts</p>
+            <p>Sets/Reps: 3x10</p>
+            <button>Mark as Complete</button>
+        </div>
+        <div class="cooldown">
+            <h3>Cool Down</h3>
+            <p>Duration: 5 minutes</p>
+            <button>Mark as Complete</button>
+        </div>
+    </div>
+    <div class="nutritional-goals">
         <h2>Daily Nutritional Goals</h2>
-        <!-- Dynamic content for nutritional information -->
-    </section>
-
-    <footer>
-        <p>&copy; 2023 HNF+. All rights reserved.</p>
-    </footer>
+        <div class="caloric-intake">
+            <h3>Caloric Intake</h3>
+            <p>Goal: 2000 Calories</p>
+        </div>
+        <div class="water-intake">
+            <h3>Water Intake</h3>
+            <p>Goal: 10 Glasses</p>
+    
+        </div>
+        
+        <div class="meal-suggestions">
+            <h3>Meal Suggestions</h3>
+            <p> Breakfast: 
+                High Protein Omelet: 3 egg whites, 1 whole egg, spinach, tomatoes, and feta cheese.</p>
+            <p> Lunch:
+                Quinoa Salad: Quinoa, cherry tomatoes, cucumber, olives, red onion, feta cheese, and a lemon-olive oil dressing.</p>
+            <p>Dinner:
+                Grilled Salmon: with steamed broccoli and a sweet potato on the side.</p>
+        </div>
+    </div>
+</div>
+<footer>
+<p>&copy; HNF+  All rights reserved.</p>
+</footer>
 </body>
 </html>
