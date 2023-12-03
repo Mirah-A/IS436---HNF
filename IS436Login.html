@@ -11,20 +11,20 @@
 <body>
 
 
-  <header>
+   <header>
         <h1></h1>
         <nav>
             <ul>
                 <li><a href="homepage.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
+                <li><a href="planner.html">Personal Planner</a></li>
+                <li><a href="subscription_plan.html">Subscription Plan</a></li>
                 <li><a href="IS436Login.html">Login</a></li>
             </ul>
         </nav>
     </header>	
 	
 	
-<form action = "..." method = "POST">
+<form action = "login.php" method = "POST">
 <div class = "Sign-In">
 	<br />
 	<h1 class="header">Sign-In</h1>
@@ -32,18 +32,18 @@
 	<!--<label for="Sign-In">E-mail or Username: <br /> </label> -->
 	<!--<input type = "text" id ="Sign-In" placeholder="Enter Username" name = "Sign-In"> -->
 	<div class="login__field">
-		<input type="text" class="login__input" placeholder="User name / Email">
+		<input type="text" class="login__input" placeholder="Enter User name" name = "username" id = "username">
 	</div>
 	<br />
 	<br />
 	<!--<label for = "Password"> Password: <br /> </label>
 	<input type = "password" id = "Password" placeholder = "Enter Password"name = "Password">-->
 	<div class="login__field">
-		<input type="password" class="login__input" placeholder="Password">
+		<input type="password" class="login__input" placeholder="Enter Password" name = "password" id = "password">
 	</div>
 	<br />
 	<br />
-	<button class = "button" type = "button" class "block"> Sign-In </button>
+	<button class = "button" type = "submit" class "block"> Sign-In </button>
 	<p> Don't have an account? <br /> <a href = "IS436SignUp.html" > Sign Up for Free! </a> </p>
 	
 	
