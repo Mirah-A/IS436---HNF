@@ -1,33 +1,49 @@
-<!-- Amirah Elgendy - Payment/Subscription HTML Page -->
+
+<!-- Amirah Elgendy - Payment/Subscription PHP Page -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<link rel="stylesheet" type="text/css" href="payment.css" title="style" />
-	<title> Payment </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="payment.css" title="style" /> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title> Payment </title>
 </head>
 <body>
 
-    <h1> Choose a Subscription Plan: </h1> 
+    <header>
+        <h1></h1>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="IS436Login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="row">
-        <div class="column">
+    <h1> Payment Method: Credit/Debit Card Only </h1> 
 
-            <h3> Monthly </h3>
+    <form method="POST" action="">
+        <p>
+            Card Number: <br />
+            <i class="bi bi-credit-card"></i>
+            <input type ="text" name ="c_num" /> <br />
 
-        </div>
-        <div class="column">
+            Expiry Date (MM/YY):        CVC: <br />
+            <input type ="text" name ="c_expire" />
+            
+            <input type ="text" name ="cvc" /> <br />
 
-            <h3> Annual </h3>  
+            Cardholder Name: <br />
+            <input type ="text" name ="c_name" /> <br />
+            <input type="submit" value="Submit Payment"/> <br /> <br />
+        </p>
+    </form>
 
-        </div>
-        <div class="column">
-
-            <h3> Pay-As-you-go </h3>
-
-        </div>
-    </div>
-
+    <footer>
+        <p>&copy; HNF+  All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
