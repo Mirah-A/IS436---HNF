@@ -1,5 +1,9 @@
 
-<!-- Amirah Elgendy - Payment/Subscription PHP Page -->
+<!-- Amirah Elgendy - Payment HTML Page 
+     Description: This page includes the form for customers to make payments 
+     using credit or debit only. 
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,22 +28,36 @@
 
     <h1> Payment Method: Credit/Debit Card Only </h1> 
 
+<div class = "payment_form" >
+
     <form method="POST" action="">
-        <p>
-            Card Number: <br />
+        <div class = "payment_box">
+            <span> Card Number: </span>
             <i class="bi bi-credit-card"></i>
-            <input type ="text" name ="c_num" /> <br />
+            <input type ="text" name ="c_num" size = "50" maxlength = "50" value = "#### #### #### ####"/> <br />
+        </div>
 
-            Expiry Date (MM/YY):        CVC: <br />
-            <input type ="text" name ="c_expire" />
-            
-            <input type ="text" name ="cvc" /> <br />
+        <div class = "adjacent_box">
+            <div class = "payment_box">
+                <span> Expiration (MM/YY): </span>
+                <input type ="text" name ="c_expire" size = "20" maxlength = "20" value = "MM/YY"/> <br />
+            </div>
 
-            Cardholder Name: <br />
-            <input type ="text" name ="c_name" /> <br />
-            <input type="submit" value="Submit Payment"/> <br /> <br />
-        </p>
+            <div class = "payment_box">
+                <span> CVC: </span>
+                <input type ="text" name ="cvc" size = "20" maxlength = "20" value="###"/> <br />
+            </div>
+        </div>
+
+        <div class = "payment_box">
+            <span> Cardholder Name: </span>
+            <input type ="text" name ="c_name" size = "50" maxlength = "50"/> <br />
+        </div>
+
+        <br /> <input type="submit" value="Submit" class = "submit-btn"/> <br /> <br />
     </form>
+
+</div>
 
     <footer>
         <p>&copy; HNF+  All rights reserved.</p>
