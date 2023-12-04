@@ -19,7 +19,8 @@ h1 {
     text-align: center;
     background-color: white; 
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 40px;
+
 }
 
 .payment_form {
@@ -29,6 +30,7 @@ h1 {
 	margin: 20px auto;
 	border-radius: 10px;
 	box-shadow: 0 5px 10px rgb(0, 0, 0, 0.2);
+
 }
 
 .payment_form form .payment_box {
