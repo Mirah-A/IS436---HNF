@@ -12,7 +12,7 @@ Link: https://swe.umbc.edu/~astine2/IS436Project/IS436---HNF/activity.html
 When you first access the page you will see a user dashboard that is empty. You want to navigate to the "Login" button on the navigation bar. If you have an account you will login using the username and password you have created. If you dont have an account, you can click the link under the login button. It will take you to the create an account page where you will enter your name, email, and other information. Once creating an account you will login using those crediential and be able to see the dashboard customized to you, the user. Once PHP is implemented the changes you make to your account will be unique to your account and your account only. 
 
 ## Use Cases
-We have five intended use case: Login/Create an Account, Payment System, Trainer Management, Personal Planner and Tracking Activities 
+We have five intended use case: Login/Create an Account, Payment System, Trainer Management, Personal Planner and Tracking Activities.  
 
 ### Login/Create Account
 The create an account page is used to store values in the mysql table. The login page references what the user inserts into the page with what information is saved in the table. If it matches the user can proceed. The login page also starts a session. (PHP in development for Login)
