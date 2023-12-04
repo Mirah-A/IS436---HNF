@@ -15,12 +15,11 @@ h1 {
     flex: 33.33%;
     height: 500px;
     padding: 30px;
-    margin: 30px;
+    margin: 30px auto;
     text-align: center;
     background-color: white; 
     border: 1px solid black;
-    border-radius: 40px;
-
+    border-radius: 10px;
 }
 
 .payment_form {
@@ -30,7 +29,6 @@ h1 {
 	margin: 20px auto;
 	border-radius: 10px;
 	box-shadow: 0 5px 10px rgb(0, 0, 0, 0.2);
-
 }
 
 .payment_form form .payment_box {
