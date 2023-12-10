@@ -1,47 +1,114 @@
 
+body{
+background:linear-gradient(96.2deg, rgb(255, 230, 112) 10.4%, rgb(255, 100, 100) 43.8%, rgb(0, 93, 219) 105.8%);
+text-align: center;
+/*background-image: url('HNF+.png');
+background-repeat: no-repeat;*/
 
 
-/* General Body Styling */
-body {
-    font-family: Arial, sans-serif;
-    
-   background:linear-gradient(96.2deg, rgb(255, 230, 112) 10.4%, rgb(255, 100, 100) 43.8%, rgb(0, 93, 219) 105.8%);
+
 }
 
-/* Header Styling */
-header {
-    background-color: #333;
+
+.Sign-In{
+	background-color: white;
+	width: 450px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:10px;
+	border: groove #CCCCCC 8px;
+	font-size: 20px;
+	/*background: linear-gradient(96.2deg, rgb(255, 230, 112) 10.4%, rgb(255, 100, 100) 43.8%, rgb(0, 93, 219) 105.8%);*/
+	opacity: 0.85;
+
+}
+
+.button{
+	padding: 15px 32px; 
+	background-color: #ADD8E6; 
+	font-size: 20px; 
+	border-radius: 16px;
+}
+
+.top{
+	width:100%;
+	height: 100px;
+	background-color:#ADD8E6;
+	border: groove #CCCCCC 8px;
+
+}
+.top a {
+	float: left; 
+	color: black;
+	padding : 14px;
+	font-size: 40px;
+}
+.top a:hover{
+	background-color: white;
+}
+.top a.current{
+	background-color: #37BCE8;
+}
+
+
+     footer {
+            background-color: #333;
             color: #fff;
-    padding: 15px 0;
-    text-align: center;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+	font-family: Raleway, sans-serif;
+} /*
+body {
+	background: linear-gradient(90deg, #C7C5F4, #776BCC);		
 }
-.gradient-background {  
-    background:linear-gradient(96.2deg, rgb(255, 230, 112) 10.4%, rgb(255, 100, 100) 43.8%, rgb(0, 93, 219) 105.8%);
+*/
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
 }
 
-header h1 {
-    margin: 0;
+	header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
 
 nav ul {
+    list-style-type: none;
+    margin: 0;
     padding: 0;
-    list-style: none;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
 }
 
 nav ul li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
+    padding: 10px 20px;
 }
 
-/* Main Content Styling */
-main {
-    padding: 20px;
+nav ul li a:hover {
+    background-color: #555;
 }
+
 
 /* Search Bar Styling */
 #trainer-search {
@@ -77,6 +144,11 @@ main {
 
 }
 
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
 .trainer-card {
        color: black ;
     background-color:#b0c4de;
@@ -104,18 +176,6 @@ main {
 
 
 
-
-/* Footer Styling */
-footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #333;
-    color: #fff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
 /* Responsive Design */
 @media (max-width: 600px) {
     nav ul li {
@@ -127,6 +187,7 @@ footer {
         width: 80%;
     }
 }
+
 
 /* Workshops Styling */
 #workshops {
@@ -185,29 +246,3 @@ body h2{ text-align: left;
 
 
 }
-
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-}
-
-nav ul li a:hover {
-    background-color: #555;
-}
-
-
-
-
-
