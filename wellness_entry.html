@@ -39,21 +39,21 @@
         <form method="POST" action="">
     
             <div class = "payment_box">
-                <span> Energy: </span>
+                <label> Energy: 
+                    <select name = "mood">
+                        <option value = "very_high"> very high </option>
+                        <option value = "high"> high </option>
+                        <option value = "normal"> normal </option>
+                        <option value = "low"> low </option>
+                        <option value = "very_low"> very low </option>
+                    </select>
+                </label>
                 <input type ="text" name ="energy"/> <br />
             </div>
     
             <div class = "payment_box">
                 <label> Today I feel: 
                     <select name = "mood">
-                        <option value = "sad"> happy </option>
-                        <option value = "normal"> calm </option>
-                        <option value = "angry"> motivated </option>
-                        <option value = "hungry"> productive </option>
-                        <option value = "uneventful"> sad </option>
-                        <option value = "special"> angry </option>
-                        <option value = "exciting"> tired </option>
-                        <option value = "chaotic"> disappointed </option>
                     </select>
                 </label>
             </div>
