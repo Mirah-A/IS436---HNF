@@ -1,5 +1,9 @@
 /* Amirah Elgendy - Payment/Subscription CSS */ 
 
+/* Logo css */ 
+.logo {
+	max-width: 100px;
+}
 
 /* payment css */ 
 h1 {
