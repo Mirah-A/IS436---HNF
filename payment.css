@@ -2,7 +2,8 @@
 
 /* Logo css */ 
 .logo {
-	max-width: 100px;
+	text-align: left;
+	float: left;
 }
 
 /* payment css */ 
