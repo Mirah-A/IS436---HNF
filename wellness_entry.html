@@ -28,22 +28,46 @@
 
 
     <h1> Wellness Calendar </h1> <br />
+    <h3> Welcome John! Today is December 11. <br /> 
+        Would you like to make an entry? </h3> 
+
+        <a href = "wellness_entry.html"> View your current entries! </a>
 
 
     <div class = "payment_form" >
     
         <form method="POST" action="">
-
-
-<!--    <input type="date" id="event-date" name="event-date"> -->
+    
             <div class = "payment_box">
-                <span> Select a date to view your entry. </span>
-                <input type ="date" name ="entry_date"/> <br />
+                <span> Card Number: </span>
+                <i class="bi bi-credit-card"></i>
+                <input type ="text" name ="c_num" size = "50" maxlength = "50" value = "#### #### #### ####"/> <br />
             </div>
     
-            <a href = "wellness_entry.html"> Make an entry for today if you haven't already! </a>
+            <div class = "adjacent_box">
+                <div class = "payment_box">
+                    <span> Expiration (MM/YY): </span>
+                    <input type ="text" name ="c_expire" size = "20" maxlength = "20" value = "MM/YY"/> <br />
+                </div>
+    
+                <div class = "payment_box">
+                    <span> CVC: </span>
+                    <input type ="text" name ="cvc" size = "20" maxlength = "20" value="###"/> <br />
+                </div>
+            </div>
+    
+            <div class = "payment_box">
+                <span> Cardholder Name: </span>
+                <input type ="text" name ="c_name" size = "50" maxlength = "50"/> <br />
+            </div>
+    
+            <br />
+            <a href = "receipt.html">
+                <button type="button">Submit</button>
+            </a>
                 <!-- <br /> <input type="submit" value="Submit" class = "submit-btn"/> --> <br /> <br />
         </form>
+
 
 
     <footer>
