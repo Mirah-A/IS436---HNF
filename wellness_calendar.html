@@ -31,7 +31,7 @@
 		</header>
 
 
-   
+    <br />
     <h3> Welcome John! <br />
         Today is December 11. Would you like to make an entry or 
 
@@ -87,26 +87,37 @@
             <label> Hours of Sleep: </label>
                 <input type ="number" step="any" min=”0″ name ="sleep_hours" style="width: 50px;"/> <br /> <br />
     
-            <label> Quality of Sleep: </label>
-        
-            <div class="btn-group me-2" role="group" aria-label="First group">
-  
-                <button type="button" class="btn btn-primary"  data-mdb-ripple-init> 1 </button>
-                <button type="button" class="btn btn-primary"  data-mdb-ripple-init> 2 </button>
-                <button type="button" class="btn btn-primary"  data-mdb-ripple-init> 3 </button>
-                <button type="button" class="btn btn-primary"  data-mdb-ripple-init> 4 </button>
-                <button type="button" class="btn btn-primary"  data-mdb-ripple-init>5</button>
-                <button type="button" class="btn btn-primary"  data-mdb-ripple-init>6</button>
-                <button type="button" class="btn btn-primary"  data-mdb-ripple-init>7</button>
-                <button type="button" class="btn btn-primary"  data-mdb-ripple-init>8</button>
-                <button type="button" class="btn btn-primary"  data-mdb-ripple-init>9</button>
-                <button type="button" class="btn btn-primary"  data-mdb-ripple-init>10</button>
-            </div>
-
-            <br /> <br />
-            <label> Stress levels: </label>
-            
-            <br />
+                <label> Quality of Sleep:
+                    <select name = "sleep_quality">
+                        <option value = "0"> 0 </option>
+                        <option value = "1"> 1 </option>
+                        <option value = "2"> 2 </option>
+                        <option value = "3"> 3 </option>
+                        <option value = "4"> 4 </option>
+                        <option value = "5"> 5 </option>
+                        <option value = "6"> 6 </option>
+                        <option value = "7"> 7 </option>
+                        <option value = "8"> 8 </option>
+                        <option value = "9"> 9 </option>
+                        <option value = "10"> 10 </option>
+                    </select> <br /> <br />
+                </label>
+    
+                <label> Stress level:
+                    <select name = "stress">
+                        <option value = "0"> 0 </option>
+                        <option value = "1"> 1 </option>
+                        <option value = "2"> 2 </option>
+                        <option value = "3"> 3 </option>
+                        <option value = "4"> 4 </option>
+                        <option value = "5"> 5 </option>
+                        <option value = "6"> 6 </option>
+                        <option value = "7"> 7 </option>
+                        <option value = "8"> 8 </option>
+                        <option value = "9"> 9 </option>
+                        <option value = "10"> 10 </option>
+                    </select> <br /> <br />
+                </label>
 
             <label>	 Details About Your Workouts or Daily Activities:  
                 <textarea name = "entry_details" rows = "10" cols = "50">It was a productive workout and I think I can increase my goal for tomorrow. </textarea> 
