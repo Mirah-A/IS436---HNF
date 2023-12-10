@@ -1,6 +1,11 @@
 /* Amirah Elgendy - Payment/Subscription CSS */ 
 
 
+/* Logo css */ 
+.logo {
+	text-align: left;
+	float: left;
+}
 
 /* payment css */ 
 h1 {
@@ -93,12 +98,6 @@ background-repeat: no-repeat;*/
 	margin-right:auto;
 	border: groove #CCCCCC 8px;
 	
-}
-
-/* Logo css */ 
-.header .logo {
-	text-align: left;
-	float: left;
 }
 
 .Sign-In{
