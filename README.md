@@ -23,5 +23,9 @@ This case allows you to insert workout and nutritional information. (This use ca
 The personal planner use case allows you to submit different information such as your goals, adding item to your calendar, adding workout plans, etc. You will insert your information into the text box under the corresponding category. The information you enter will display under the same corresponding category.
 ### Tracking Activites
 This case allows you to view all of your activities on the dashboard. If you make a change to Personal Planner or Workout and Nutritional Information, it will be updated on the dashboard so you wont have to go back and forth between pages to view it. 
+
+### Wellness Calendar
+This case allows you to track things other than workout and food. You can jot down information such as wake-up time, sleep hours, mood, energy levels, etc. This is where you, the user will track any information that might not be recorded as part of a workout. This would be your journal. 
+
 ### Trainer Management
 This case allows you to look at the various resources that trainer will be able to offer you. This use case also displays events and workshops that trainers will be hosting 
