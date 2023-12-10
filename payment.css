@@ -334,7 +334,7 @@ nav ul li a:hover {
 
 /* Logo CSS */
 .logo {
-	float: left;
-/*	display: flex; 
-display: inline-block;*/
+	/*float: left;
+	display: flex; */
+display: inline-block;
 }
