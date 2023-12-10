@@ -31,7 +31,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #ff6699;
+  /* color: #ff6699; commented this out for consistency across web pages */
 }
 
 .top-menu {
