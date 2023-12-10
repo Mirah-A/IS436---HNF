@@ -246,3 +246,10 @@ body h2{ text-align: left;
 
 
 }
+
+
+/* Logo CSS */
+.logo {
+	float: left;
+	display: flex;
+}

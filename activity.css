@@ -136,3 +136,8 @@ header {
 
 
 
+/* Logo CSS */
+.logo {
+	float: left;
+	display: flex;
+}
