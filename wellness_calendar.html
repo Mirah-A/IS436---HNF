@@ -28,7 +28,46 @@
 
     <h1>  Wellness Calendar </h1> 
 
+    <h2> Total Account Charge: $30 </h2> 
 
+    <div class = "payment_form" >
+    
+        <form method="POST" action="">
+    
+            <div class = "payment_box">
+                <span> How much would you like to pay? </span>
+                <input type ="text" name ="amount" size = "20" maxlength = "20" value = "$30"/> <br />
+            </div>
+    
+            <div class = "payment_box">
+                <span> Card Number: </span>
+                <i class="bi bi-credit-card"></i>
+                <input type ="text" name ="c_num" size = "50" maxlength = "50" value = "#### #### #### ####"/> <br />
+            </div>
+    
+            <div class = "adjacent_box">
+                <div class = "payment_box">
+                    <span> Expiration (MM/YY): </span>
+                    <input type ="text" name ="c_expire" size = "20" maxlength = "20" value = "MM/YY"/> <br />
+                </div>
+    
+                <div class = "payment_box">
+                    <span> CVC: </span>
+                    <input type ="text" name ="cvc" size = "20" maxlength = "20" value="###"/> <br />
+                </div>
+            </div>
+    
+            <div class = "payment_box">
+                <span> Cardholder Name: </span>
+                <input type ="text" name ="c_name" size = "50" maxlength = "50"/> <br />
+            </div>
+    
+            <br />
+            <a href = "receipt.html">
+                <button type="button">Submit</button>
+            </a>
+                <!-- <br /> <input type="submit" value="Submit" class = "submit-btn"/> --> <br /> <br />
+        </form>
 
 
     <footer>
