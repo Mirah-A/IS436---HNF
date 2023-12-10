@@ -12,7 +12,7 @@
 </head>
 <body>
 
-   <header>
+    <header>
     
             <nav class = "top-menu">
              <ul>
@@ -31,98 +31,25 @@
 		</header>
 
 
-   
-    <h3> Welcome John! <br />
-        Today is December 11. Would you like to make an entry or 
 
-        <a href = "wellness_calendar.html">view your current entries</a>?</h3> 
+ 
 
 
-    <div class = "entry_form" >
+    <div class = "payment_form" >
+    
         <form method="POST" action="">
-    
-            <label> Energy: 
-                <select name = "mood">
-                    <option value = "very_high"> very high </option>
-                    <option value = "high"> high </option>
-                    <option value = "normal"> normal </option>
-                    <option value = "low"> low </option>
-                    <option value = "very_low"> very low </option>
-                </select> <br /> <br />
-            </label>
-    
 
-            <label> Today I feel: </label> <br> 
-            <label> <input type = "radio"  name = "mood"  
-                value = "positive"/> positive </label>
-                <i class="bi bi-emoji-smile"></i>
-            <br />
 
-            <label> <input type = "radio"  name = "mood"  
-                value = "neutral"/> neutral </label>
-                <i class="bi bi-emoji-neutral"></i>
-            <br />
-
-            <label> <input type = "radio"  name = "mood"  
-                value = "negative"/> negative </label>
-                <i class="bi bi-emoji-frown"></i> 
-            <br /> <br />
-
-<!--
-                <input type="checkbox" name="positive">
-                <label for="mood1"> positive </label> 
-                <i class="bi bi-emoji-smile"></i>
-
-                <input type="checkbox" name="neutral">
-                <label for="mood2"> neutral</label> 
-                <i class="bi bi-emoji-neutral"></i>
-
-                <input type="checkbox"name="negative">
-                <label for="mood3"> negative </label>
-                <i class="bi bi-emoji-frown"></i>  
-            </label> <br /> <br />
--->
-
-                
-            <label> Hours of Sleep: </label>
-                <input type ="number" step="any" min=”0″ name ="sleep_hours" style="width: 50px;"/> <br /> <br />
-    
-            <label> Quality of Sleep: </label>
-        
-            <div class="btn-group me-2" role="group" aria-label="First group">
-  
-                <button type="button" class="btn btn-primary"  data-mdb-ripple-init> 1 </button>
-                <button type="button" class="btn btn-primary"  data-mdb-ripple-init> 2 </button>
-                <button type="button" class="btn btn-primary"  data-mdb-ripple-init> 3 </button>
-                <button type="button" class="btn btn-primary"  data-mdb-ripple-init> 4 </button>
-                <button type="button" class="btn btn-primary"  data-mdb-ripple-init>5</button>
-                <button type="button" class="btn btn-primary"  data-mdb-ripple-init>6</button>
-                <button type="button" class="btn btn-primary"  data-mdb-ripple-init>7</button>
-                <button type="button" class="btn btn-primary"  data-mdb-ripple-init>8</button>
-                <button type="button" class="btn btn-primary"  data-mdb-ripple-init>9</button>
-                <button type="button" class="btn btn-primary"  data-mdb-ripple-init>10</button>
+<!--    <input type="date" id="event-date" name="event-date"> -->
+            <div class = "payment_box">
+                <span> Please select a date to view your entry. </span>
+                <input type ="date" name ="entry_date"/> <br />
             </div>
-
-            <br /> <br />
-            <label> Stress levels: </label>
-            
-            <br />
-
-            <label>	 Details About Your Workouts or Daily Activities:  
-                <textarea name = "entry_details" rows = "10" cols = "50">It was a productive workout and I think I can increase my goal for tomorrow. </textarea> 
-            </label>
-
     
-            <br />
-            <a href = "wellness_calendar.html">
-                <button type="button">Submit Entry</button> <br /> <br />
-            </a>
-            
-                <!-- <br /> <input type="submit" value="Submit" class = "submit-btn"/> --> 
+            <a href = "wellness_entry.html"> Make an entry for today if you haven't already! </a>
+                <!-- <br /> <input type="submit" value="Submit" class = "submit-btn"/> --> <br /> <br />
         </form>
     </div>
-
-    <p> <br /> <br /> </p>
 
     <footer>
         <p>&copy; HNF+  All rights reserved.</p>
