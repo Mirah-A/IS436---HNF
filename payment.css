@@ -1,5 +1,10 @@
 /* Amirah Elgendy - Payment/Subscription CSS */ 
 
+.logo {
+	float: left;
+}
+
+
 /* payment css */ 
 h1 {
     text-align: center;
