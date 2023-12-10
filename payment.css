@@ -2,7 +2,7 @@
 
 .logo {
 	float: left;
-	text-align: left;
+	display: flex;
 }
 
 
