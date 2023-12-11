@@ -338,3 +338,8 @@ nav ul li a:hover {
 	display: flex;
 	position: absolute;
 }
+#navbar img { 
+	float: left;
+	position: absolute;
+
+} 
