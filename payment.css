@@ -335,5 +335,6 @@ nav ul li a:hover {
 /* Logo CSS */
 .logo {
 	float: left;
-	display: flex;
+	/*display: flex;*/
+	position: absolute;
 }
