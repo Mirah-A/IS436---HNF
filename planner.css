@@ -77,4 +77,5 @@ nav ul li a:hover {
 .logo {
 	float: left;
 	display: flex;
+  position: absolute;
 }

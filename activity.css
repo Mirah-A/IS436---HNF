@@ -140,4 +140,5 @@ header {
 .logo {
 	float: left;
 	display: flex;
+    position: absolute;
 }

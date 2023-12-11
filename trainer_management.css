@@ -252,4 +252,5 @@ body h2{ text-align: left;
 .logo {
 	float: left;
 	display: flex;
+    position: absolute;
 }

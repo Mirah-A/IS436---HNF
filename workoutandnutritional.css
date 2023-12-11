@@ -110,6 +110,7 @@ button:hover {
 .logo {
 	float: left;
 	display: flex;
+    position: absolute;
 }
 
 
