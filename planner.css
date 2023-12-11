@@ -72,6 +72,12 @@ nav ul li a:hover {
   background-color: #555;
 }
 
+.button{
+	padding: 15px 32px; 
+	background-color: #ADD8E6; 
+	font-size: 20px; 
+	border-radius: 16px;
+}
 
 /* Logo CSS */
 .logo {
@@ -79,3 +85,4 @@ nav ul li a:hover {
 	display: flex;
   position: absolute;
 }
+
