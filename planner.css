@@ -79,12 +79,6 @@ nav ul li a:hover {
 	border-radius: 16px;
 }
 
-.button__icon {
-	font-size: 24px;
-	margin-left: auto;
-	color: #7875B5;
-}
-
 /* Logo CSS */
 .logo {
 	float: left;
