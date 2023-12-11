@@ -333,11 +333,6 @@ nav ul li a:hover {
 
 
 /* Logo CSS */
-.logo {
-	float: left;
-	display: flex;
-	position: absolute;
-}
 #navbar img { 
 	float: left;
 	position: absolute;
